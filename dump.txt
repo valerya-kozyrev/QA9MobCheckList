@@ -1,0 +1,296 @@
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #0 Window{b704918 u0 InputMethod}:
+    mDisplayId=0 stackId=0 mSession=Session{ad968f5 13406:u0a10058} mClient=android.os.BinderProxy@53584fb
+    mOwnerUid=10058 mShowToOwnerOnly=true package=com.google.android.inputmethod.latin appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#50 sim=#20 ty=2011 fl=#800108 fmt=-2 wanim=0x1030056 vsysui=0x300 needsMenuKey=2 colorMode=0}
+    Requested w=1080 h=2280 mLayoutSeq=157
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=22015
+    mToken=WindowToken{6888c9d android.os.Binder@e27d946}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,1397][0,0] mGivenVisibleInsets=[0,1397][0,0]
+    mTouchableInsets=3 mGivenInsetsPending=false
+    touchable region=SkRegion((0,1463,1080,2148))
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=false mShownPosition=[0,66] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,66][1080,2280] last=[0,66][1080,2280]
+    Frames: containing=[0,66][1080,2280] parent=[0,66][1080,2280]
+        display=[0,66][1080,2280] overscan=[0,66][1080,2280]
+        content=[0,66][1080,2148] visible=[0,66][1080,2148]
+        decor=[0,0][0,0]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,132] visible=[0,0][0,132] stable=[0,0][0,132] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,132] visible=[0,0][0,132] stable=[0,0][0,132] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{832612a InputMethod}:
+      mDrawState=NO_SURFACE       mLastHidden=true
+      mSystemDecorRect=[0,0][1080,2214] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,2214]
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #1 Window{8d80898 u0 NavigationBar}:
+    mDisplayId=0 stackId=0 mSession=Session{7fe0422 13423:u0a10029} mClient=android.os.BinderProxy@8715a0a
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#21840068 fmt=-3 colorMode=0}
+    Requested w=1080 h=132 mLayoutSeq=178
+    mBaseLayer=231000 mSubLayer=0 mAnimLayer=231000+0=231000 mLastLayer=231000
+    mToken=WindowToken{57bdee0 android.os.BinderProxy@f6e927b}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=true mShownPosition=[0,2148] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,2148][1080,2280] last=[0,2148][1080,2280]
+    Frames: containing=[0,2148][1080,2280] parent=[0,2148][1080,2280]
+        display=[0,2148][1080,2280] overscan=[0,2148][1080,2280]
+        content=[0,2148][1080,2280] visible=[0,2148][1080,2280]
+        decor=[0,0][0,0]
+        outset=[0,2148][1080,2280]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{4685e5 NavigationBar}:
+      mSurface=Surface(name=NavigationBar)
+      Surface: shown=true layer=231000 alpha=1.0 rect=(0.0,2148.0) 1080.0 x 132.0 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mSystemDecorRect=[0,0][1080,132] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,132]
+    mLastFreezeDuration=+14h0m38s936ms
+    isOnScreen=true
+    isVisible=true
+  Window #2 Window{c013755 u0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{7fe0422 13423:u0a10029} mClient=android.os.BinderProxy@249f93f
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx66) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600 colorMode=0}
+    Requested w=1078 h=66 mLayoutSeq=178
+    mBaseLayer=181000 mSubLayer=0 mAnimLayer=181000+0=181000 mLastLayer=181000
+    mToken=WindowToken{4e65599 android.os.BinderProxy@92a820c}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=true mShownPosition=[0,0] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1080,66] last=[0,0][1080,66]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[0,0][1080,2280] overscan=[0,0][1080,2148]
+        content=[0,0][1080,66] visible=[0,0][1080,66]
+        decor=[0,0][0,0]
+        outset=[0,0][1080,2148]
+    Cur insets: overscan=[0,0][0,132] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,132] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{db0b0dc StatusBar}:
+      mSurface=Surface(name=StatusBar)
+      Surface: shown=true layer=181000 alpha=1.0 rect=(0.0,0.0) 1080.0 x 66.0 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mSystemDecorRect=[0,0][1080,66] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,66]
+    isOnScreen=true
+    isVisible=true
+  Window #3 Window{dbc5d71 u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{7fe0422 13423:u0a10029} mClient=android.os.BinderProxy@aeb92fb
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx688) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700 colorMode=0}
+    Requested w=0 h=0 mLayoutSeq=10
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{ce03f74 android.os.BinderProxy@6383f18}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,2280][1080,2280] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[0,0][1080,2280] overscan=[0,0][1080,2280]
+        content=[0,2280][1080,2280] visible=[0,2280][1080,2280]
+        decor=[0,0][1080,2280]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{c83614f AssistPreviewPanel}:
+      mDrawState=NO_SURFACE       mLastHidden=false
+      mSystemDecorRect=[0,0][0,0] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][0,0]
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #4 Window{ff90fba u0 DockedStackDivider}:
+    mDisplayId=0 stackId=0 mSession=Session{7fe0422 13423:u0a10029} mClient=android.os.BinderProxy@7c07c4f
+    mOwnerUid=10029 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx132) sim=#20 ty=2034 fl=#21840028 pfl=0x40 fmt=-3 vsysui=0x700 colorMode=0}
+    Requested w=1078 h=132 mLayoutSeq=178
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=0
+    mToken=WindowToken{169e512 android.os.BinderProxy@6ef2fdc}
+    mViewVisibility=0x4 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mPolicyVisibility=false mPolicyVisibilityAfterAnim=false mAppOpVisibility=true parentHidden=false mPermanentlyHidden=false mForceHideNonSystemOverlayWindow=false
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mTouchableInsets=3 mGivenInsetsPending=false
+    touchable region=SkRegion((-132,0,132,132))
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[0,0][1080,2280] overscan=[0,0][1080,2280]
+        content=[0,0][0,0] visible=[0,66][1080,2148]
+        decor=[0,0][1080,2280]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,66][0,132] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{ab78fae DockedStackDivider}:
+      mDrawState=NO_SURFACE       mLastHidden=false
+      mSystemDecorRect=[0,0][0,0] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][0,0]
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #5 Window{e78d3dc u0 com.flt.checklist/com.flt.checklist.MainActivity}:
+    mDisplayId=0 stackId=1 mSession=Session{2a53f1f 14387:u0a10079} mClient=android.os.BinderProxy@e9a304f
+    mOwnerUid=10079 mShowToOwnerOnly=true package=com.flt.checklist appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#81810100 wanim=0x10302f6 vsysui=0x600 needsMenuKey=2 colorMode=0}
+    Requested w=1078 h=1942 mLayoutSeq=178
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{568729 token=Token{946da62 ActivityRecord{cb5c52d u0 com.flt.checklist/.MainActivity t127}}}
+    mAppToken=AppWindowToken{568729 token=Token{946da62 ActivityRecord{cb5c52d u0 com.flt.checklist/.MainActivity t127}}}
+     isAnimatingWithSavedSurface()=false mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw385dp w392dp h706dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2009) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw385dp w392dp h706dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2009) s.6}
+    mHasSurface=true mShownPosition=[0,0] isReadyForDisplay()=true hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1080,2009] last=[0,0][1080,2009]
+    Frames: containing=[0,0][1080,2009] parent=[0,0][1080,2280]
+        display=[0,0][1080,2009] overscan=[0,0][1080,2280]
+        content=[0,66][1080,2009] visible=[0,66][1080,2009]
+        decor=[0,0][1080,2280]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{78a5b1b com.flt.checklist/com.flt.checklist.MainActivity}:
+      mSurface=Surface(name=com.flt.checklist/com.flt.checklist.MainActivity)
+      Surface: shown=true layer=21010 alpha=1.0 rect=(0.0,0.0) 1080.0 x 2009.0 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mSystemDecorRect=[0,0][1080,2009] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,2009]
+    isOnScreen=true
+    isVisible=true
+  Window #6 Window{308c69d u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{9237886 13945:u0a10032} mClient=android.os.BinderProxy@ab52174
+    mOwnerUid=10032 mShowToOwnerOnly=true package=com.google.android.apps.nexuslauncher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#3 sim=#20 ty=4 fl=#81850118 pfl=0x20000 fmt=-2 wanim=0x10302f6 alpha=0.0 vsysui=0x700 needsMenuKey=2 colorMode=0}
+    Requested w=1080 h=2280 mLayoutSeq=69
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=21005
+    mToken=AppWindowToken{8b33042 token=Token{2e177b7 ActivityRecord{1a5d19 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t126}}}
+    mAppToken=AppWindowToken{8b33042 token=Token{2e177b7 ActivityRecord{1a5d19 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t126}}}
+     isAnimatingWithSavedSurface()=false mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1080,2280] last=[0,0][1080,2280]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[0,0][1080,2280] overscan=[0,0][1080,2280]
+        content=[0,66][1080,2148] visible=[0,66][1080,2148]
+        decor=[0,0][1080,2280]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,132] visible=[0,66][0,132] stable=[0,66][0,132] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,132] visible=[0,66][0,132] stable=[0,66][0,132] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{28928f3 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}:
+      mDrawState=NO_SURFACE       mLastHidden=true
+      mSystemDecorRect=[0,0][1080,2280] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,2280]
+      mShownAlpha=0.0 mAlpha=0.0 mLastAlpha=0.0
+    isOnScreen=false
+    isVisible=false
+  Window #7 Window{66da9b6 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{5c49419 13887:u0a10023} mClient=android.os.BinderProxy@90bad51
+    mOwnerUid=10023 mShowToOwnerOnly=true package=com.google.android.apps.nexuslauncher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 pfl=0x20000 fmt=-2 wanim=0x10302f6 vsysui=0x700 needsMenuKey=2 colorMode=0}
+    Requested w=1078 h=2082 mLayoutSeq=69
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=AppWindowToken{8b33042 token=Token{2e177b7 ActivityRecord{1a5d19 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t126}}}
+    mAppToken=AppWindowToken{8b33042 token=Token{2e177b7 ActivityRecord{1a5d19 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t126}}}
+     isAnimatingWithSavedSurface()=false mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=false mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1080,2280] last=[0,0][1080,2280]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[0,0][1080,2280] overscan=[0,0][1080,2280]
+        content=[0,66][1080,2148] visible=[0,66][1080,2148]
+        decor=[0,0][1080,2280]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,132] visible=[0,66][0,132] stable=[0,66][0,132] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,132] visible=[0,66][0,132] stable=[0,66][0,132] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{6c6df62 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}:
+      mDrawState=NO_SURFACE       mLastHidden=true
+      mSystemDecorRect=[0,0][1080,2280] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][1080,2280]
+    mWallpaperX=0.0 mWallpaperY=0.5
+    isOnScreen=false
+    isVisible=false
+  Window #8 Window{7a3835d u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{7fe0422 13423:u0a10029} mClient=android.os.BinderProxy@dc5d934
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1243x2280) gr=#800033 ty=2013 fl=#10318 fmt=2 wanim=0x1030306 colorMode=0}
+    Requested w=1243 h=2280 mLayoutSeq=76
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=11000 mSubLayer=0 mAnimLayer=11000+0=11000 mLastLayer=11000
+    mToken=WallpaperWindowToken{17d405e token=android.os.Binder@217ac4d}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mLastReportedConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+    mHasSurface=true mShownPosition=[0,0] isReadyForDisplay()=false hasSavedSurface()=false mWindowRemovalAllowed=false
+    mFrame=[0,0][1243,2280] last=[0,0][1243,2280]
+    Frames: containing=[0,0][1080,2280] parent=[0,0][1080,2280]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1080,2280]
+        content=[0,0][1080,2280] visible=[0,66][1080,2148]
+        decor=[0,0][0,0]
+        outset=[0,0][1080,2280]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][163,0] visible=[0,66][163,132] stable=[0,66][163,132] surface=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][163,0] visible=[0,66][163,132] stable=[0,66][163,132] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{1cebe2d com.android.systemui.ImageWallpaper}:
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      Surface: shown=false layer=11000 alpha=1.0 rect=(0.0,0.0) 1243.0 x 2280.0 transform=(1.0, 0.0, 1.0, 0.0)
+      mDrawState=HAS_DRAWN       mLastHidden=true
+      mSystemDecorRect=[0,0][0,0] last=[0,0][0,0] mHasClipRect=false mLastClipRect=[0,0][0,0]
+    mLastFreezeDuration=+14h0m37s244ms
+    mWallpaperX=0.0 mWallpaperY=0.5
+    isOnScreen=true
+    isVisible=false
+
+  mGlobalConfiguration={1.0 310mcc260mnc [en_US] ldltr sw392dp w392dp h757dp 440dpi nrml long port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 2148) s.6}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{e78d3dc u0 com.flt.checklist/com.flt.checklist.MainActivity}
+  mFocusedApp=AppWindowToken{568729 token=Token{946da62 ActivityRecord{cb5c52d u0 com.flt.checklist/.MainActivity t127}}}
+  mInTouchMode=true mLayoutSeq=178
+  mLastDisplayFreezeDuration=0 due to Window{8d80898 u0 NavigationBar}
+  mLastWakeLockHoldingWindow=null mLastWakeLockObscuringWindow=Window{7a3835d u0 com.android.systemui.ImageWallpaper}
+  InputConsumers:
+    name=pip_input_consumer
+  SnapshotCache
+  mSystemDecorLayer=181000 mScreenRect=[0,0][1080,2280]
+  mLastStatusBarVisibility=0x8608
+  mTraversalScheduled=false
+  mHoldScreenWindow=null
+  mObscuringWindow=null
+  mWallpaperTarget=null
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=279
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mLastOrientation=-1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+    mLastUsedAppTransition=TRANSIT_ACTIVITY_OPEN
+    mLastOpeningApp=AppWindowToken{568729 token=Token{946da62 ActivityRecord{cb5c52d u0 com.flt.checklist/.MainActivity t127}}}
+    mLastClosingApp=AppWindowToken{1898463 token=Token{194701d ActivityRecord{9e780f4 u0 com.flt.checklist/.AddNewListActivity t127}}}
